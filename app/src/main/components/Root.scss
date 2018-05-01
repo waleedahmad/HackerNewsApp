@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600|Roboto:100,300');
+
+@import '~bootstrap/dist/css/bootstrap.css';
+
+html,body {
+  height: 100%;
+  overflow: hidden !important;
+}
+
+.container-fluid{
+}
+
+.spinner-icon{
+  display: block;
+  height: 50px;
+  width: 50px;
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  margin:auto;
+  z-index : 1;
+}
+

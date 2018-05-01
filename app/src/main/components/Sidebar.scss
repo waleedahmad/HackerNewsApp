@@ -1,0 +1,41 @@
+.sidebar{
+  height: 100%;
+  display: block;
+  overflow : auto;
+  background-color:#282c34;
+  padding : 0px;
+  color: white;
+
+  .link{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70px;
+    padding: 0px 10px 0px 10px;
+    border-bottom : 1px;
+    cursor : pointer;
+
+    &:hover{
+      background-color:white;
+      color:#282c34;
+    }
+
+    &.active{
+      background-color:white;
+      color:#282c34;
+    }
+  }
+
+  .load-more{
+    cursor: pointer;
+    text-align:center;
+    margin: 0px auto;
+    width: 150px;
+    border-radius : 20px;
+    display: block;
+    &:hover{
+      background-color:white;
+      color:#282c34 !important;
+    }
+  }
+}
